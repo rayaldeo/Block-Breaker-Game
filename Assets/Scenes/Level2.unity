@@ -220,7 +220,7 @@ GameObject:
   - 114: {fileID: 176806433}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -237,7 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &176806434
 BoxCollider2D:
@@ -347,7 +346,7 @@ GameObject:
   - 114: {fileID: 321452998}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -364,7 +363,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &321452999
@@ -522,7 +520,7 @@ GameObject:
   - 114: {fileID: 422678920}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -539,7 +537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &422678921
@@ -686,7 +683,7 @@ GameObject:
   - 114: {fileID: 545487907}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -703,7 +700,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &545487908
 BoxCollider2D:
@@ -805,7 +801,7 @@ GameObject:
   - 114: {fileID: 572212123}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,7 +818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -974,7 +969,7 @@ GameObject:
   - 114: {fileID: 576543462}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -991,7 +986,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -1055,7 +1049,7 @@ GameObject:
   - 114: {fileID: 597540925}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1072,7 +1066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &597540926
 BoxCollider2D:
@@ -1134,7 +1127,7 @@ GameObject:
   - 114: {fileID: 617160596}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1151,7 +1144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &617160597
@@ -1617,7 +1609,7 @@ GameObject:
   - 114: {fileID: 991970679}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1634,7 +1626,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &991970680
 BoxCollider2D:
@@ -1740,7 +1731,7 @@ GameObject:
   - 114: {fileID: 1063351951}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1757,7 +1748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1063351952
 BoxCollider2D:
@@ -1859,7 +1849,7 @@ GameObject:
   - 114: {fileID: 1140208634}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1876,7 +1866,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1140208635
 BoxCollider2D:
@@ -1938,7 +1927,7 @@ GameObject:
   - 114: {fileID: 1159801475}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1955,7 +1944,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -2063,7 +2051,7 @@ GameObject:
   - 114: {fileID: 1215694572}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2080,7 +2068,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &1215694573
@@ -2143,7 +2130,7 @@ GameObject:
   - 114: {fileID: 1264153592}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2160,7 +2147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -2268,7 +2254,7 @@ GameObject:
   - 114: {fileID: 1316296341}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2285,7 +2271,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &1316296342
@@ -2436,7 +2421,7 @@ GameObject:
   - 114: {fileID: 1449524902}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2453,7 +2438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1449524903
 BoxCollider2D:
@@ -2559,7 +2543,7 @@ GameObject:
   - 114: {fileID: 1470185508}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2576,7 +2560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -2850,7 +2833,7 @@ GameObject:
   - 114: {fileID: 1619267138}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2867,7 +2850,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &1619267139
@@ -2930,7 +2912,7 @@ GameObject:
   - 114: {fileID: 1652832226}
   m_Layer: 0
   m_Name: 2HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2947,7 +2929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
 --- !u!61 &1652832227
@@ -3280,7 +3261,7 @@ GameObject:
   - 114: {fileID: 1856111095}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3297,7 +3278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -3361,7 +3341,7 @@ GameObject:
   - 114: {fileID: 1896154315}
   m_Layer: 0
   m_Name: 1HitBlock
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3378,7 +3358,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1896154316
 BoxCollider2D:
@@ -3440,7 +3419,7 @@ GameObject:
   - 114: {fileID: 1924187333}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3457,7 +3436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
@@ -3715,7 +3693,7 @@ GameObject:
   - 114: {fileID: 2141234902}
   m_Layer: 0
   m_Name: 3HitBrick
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3732,7 +3710,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6156650eddced4ebac7e0ce3dce857, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 3
   hitSprites:
   - {fileID: 21300004, guid: e2d1014b56f7b3844a12123dfa19f990, type: 3}
   - {fileID: 21300002, guid: b2a377e13d725dd45a6caf3d0a2c041a, type: 3}
