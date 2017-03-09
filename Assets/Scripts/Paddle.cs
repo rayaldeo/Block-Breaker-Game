@@ -15,7 +15,7 @@ public class Paddle : MonoBehaviour {
 		//this.transform.position.y->This function will keep the y variable set in the
 		//inspecter for the object
 		mousePosInBlocks=Mathf.Clamp(Input.mousePosition.x/Screen.width*16,1f,15f);
-		print (mousePosInBlocks);
+		//print (mousePosInBlocks);
 		paddlePos.x =mousePosInBlocks;
 		this.transform.position=paddlePos;
 	
