@@ -9,9 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 472146}
   - 212: {fileID: 21272146}
-  - 61: {fileID: 6172146}
   - 50: {fileID: 5072146}
   - 114: {fileID: 11472146}
+  - 60: {fileID: 6099612}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -46,8 +46,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
---- !u!61 &6172146
-BoxCollider2D:
+--- !u!60 &6099612
+PolygonCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -55,8 +55,15 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 2, y: .649999976}
-  m_Center: {x: 0, y: 0}
+  m_Poly:
+    m_Paths:
+    - - {x: .0426712036, y: .260733187}
+      - {x: -.972367287, y: .33727181}
+      - {x: -1.640625, y: -.2734375}
+      - {x: -1.67454338, y: -.33727175}
+      - {x: 1.640625, y: -.3203125}
+      - {x: 1.640625, y: -.29306519}
+      - {x: 1.00590038, y: .33727169}
 --- !u!114 &11472146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -90,7 +97,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: fcdddcbfdcf4e1f44a8918e98c8527b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 99ee507a27bbffd459d50bb1a07cde36, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
 Prefab:
