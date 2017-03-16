@@ -8,6 +8,7 @@ public class Brick : MonoBehaviour {
 	private LevelManager levelManger;
 	public Sprite[] hitSprites;
 	private bool isBreakable;
+	public GameObject smoke;
 
 	// Use this for initialization
 	void Start () {
@@ -42,9 +43,16 @@ public class Brick : MonoBehaviour {
 			print("Breakable -- "+breakableCount);
 			levelManger.BricksDestroyed();
 			Destroy(gameObject);
+			PuffSmoke();
 		}else{
 			LoadSprites();
 		}
+	}
+	
+	
+	void PuffSmoke(){
+		GameObject smokePuff =Instantiate(smoke,transform.position,Quaternion.identity) as GameObject;
+		smokePuff.particleSystem.startColor= this.GetComponent<SpriteRenderer>().color;
 	}
 	
 	//TODO Remore this method once we can actually Win!

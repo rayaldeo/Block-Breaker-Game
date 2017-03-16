@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2efa6f6fd37e2414abfce6a4a8035cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoPlayCheck: 1
+  autoPlayCheck: 0
   mousePosInBlocks: 0
 --- !u!212 &21272146
 SpriteRenderer:
